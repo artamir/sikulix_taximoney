@@ -315,22 +315,18 @@ def clickOnCaptcha():
     o(fn)
     isCaptchaFound = False
     _captcha2 = Pattern("_captcha21.png").targetOffset(1,-52)
-    if not exists(_captcha2,0):
-        _captcha2 = Pattern("_captcha22.png").targetOffset(7,-52)
-    
-    if exists(_captcha2,0):
-        if not exists(getOrderCheckPic(),0):
-            c(fn)
-            return False
-        
+    if exists(_captcha2):
+        click()
         isCaptchaFound = True
-        try:
-            click(_captcha2)
-            c(fn)
-            return isOrderAccepted()
-        except:
-            clickOtmena()
-        fault_capcha_counter =+ 1
+        c(fn)
+        return isOrderAccepted()
+        
+    _captcha2 = Pattern("_captcha22.png").targetOffset(7,-52) 
+    if exists(_captcha2):
+        click()
+        isCaptchaFound = True
+        c(fn)
+        return isOrderAccepted()
     
     c(fn)
     return False
@@ -359,14 +355,14 @@ def getOrderFindWordsPic():
     o(fn)
     if auto["findWords"] == "работа":
         c(fn)
-        return Pattern("find_word_rabota.png").similar(0.93).targetOffset(-2,1)
+        return Pattern("find_word_rabota.png").similar(0.93).targetOffset(-140,50)
     if auto["findWords"] == "бонус":
         c(fn)
-        return Pattern("1679495102267.png").similar(0.92)
+        return Pattern("1679495102267.png").similar(0.92).targetOffset(-140,50)
 
     if auto["findWords"] == "халтура":
         c(fn)
-        return Pattern("1679495289633.png").similar(0.93)
+        return Pattern("1679495289633.png").similar(0.93).targetOffset(-140,50)
     c(fn)
 
 #=======================================================================================
@@ -393,10 +389,13 @@ def findWords():
     type(r"f",KeyModifier.CTRL)
     paste(unicd(_findWords))
     type(Key.ENTER)
-    if exists(_picFindWords,0):
-        click()
-        c(fn)
-        return True
+    for i in range(5):
+        if exists(_picFindWords,1):
+            click()
+            c(fn)
+            return True
+    
+        type(Key.F3) 
     c(fn) 
     return False
     
@@ -408,15 +407,20 @@ def getOrder():
     _pic = getOrderPic()
     while not isOrderTaken:
         #scrollToOrder = scrollToOrderDown(_pic, region)
-        scrollToOrder = findWords()
-        
-        if scrollToOrder:
-            highlightPicture(_pic)
-            if ifExistsClick(_pic, region):
-                isOrderTaken = clickOnCaptcha()                
-        else:
+        status = getAutoStatus()
+        if status == "empty reload":
             reloadOrders()
-            wait(5)
+        else:    
+            scrollToOrder = findWords()
+        
+            if scrollToOrder:
+                #highlightPicture(_pic)
+                #if ifExistsClick(_pic, region):
+                #    isOrderTaken = clickOnCaptcha()
+                isOrderTaken = clickOnCaptcha()
+            else:
+                reloadOrders()
+                wait(5)
     logger.warning("    isOrderTaken = "+str(isOrderTaken))
     if isOrderTaken:
         auto["timeStart"] = time.time()
@@ -457,6 +461,18 @@ def getAutoStatus():
 
     
     closeReclama()
+    if exists("vzyati zakaz gray.png",0):
+        auto['status'] = "empty reload"
+        setTimers()
+        c(fn)
+        return "empty reload"    
+    if exists("vzyati zakaz blue.png",0):
+        auto['status'] = "empty"
+        setTimers()
+        c(fn)
+        return "empty"
+
+
     if exists("_ZacazPrineat.png",0):
         auto['status'] = "order accepted"
         setTimers()
@@ -479,17 +495,8 @@ def getAutoStatus():
         c(fn)
         return "resting"
 
-    if exists("vzyati zakaz blue.png",0):
-        auto['status'] = "empty"
-        setTimers()
-        c(fn)
-        return "empty"
 
-    if exists("vzyati zakaz gray.png",0):
-        auto['status'] = "empty reload"
-        setTimers()
-        c(fn)
-        return "empty reload"
+    
 
     type(Key.PAGE_DOWN)
 

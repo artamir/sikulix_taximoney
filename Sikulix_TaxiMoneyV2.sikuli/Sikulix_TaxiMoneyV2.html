@@ -480,15 +480,19 @@ regionSideMenu = Region(<span class="dig">243</span>,<span class="dig">113</span
     _pic = getOrderPic()
     <span class="kw">while</span> <span class="kw">not</span> isOrderTaken:
         <span class="cmt">#scrollToOrder = scrollToOrderDown(_pic, region)</span>
-        scrollToOrder = findWords()
-
-        <span class="kw">if</span> scrollToOrder:
-            highlightPicture(_pic)
-            <span class="kw">if</span> ifExistsClick(_pic, region):
-                isOrderTaken = clickOnCaptcha()
-        <span class="kw">else</span>:
+        status = getAutoStatus()
+        <span class="kw">if</span> status == <span class="str">"empty reload"</span>:
             reloadOrders()
-            <span class="skw">wait</span>(<span class="dig">5</span>)
+        <span class="kw">else</span>:
+            scrollToOrder = findWords()
+
+            <span class="kw">if</span> scrollToOrder:
+                highlightPicture(_pic)
+                <span class="kw">if</span> ifExistsClick(_pic, region):
+                    isOrderTaken = clickOnCaptcha()
+            <span class="kw">else</span>:
+                reloadOrders()
+                <span class="skw">wait</span>(<span class="dig">5</span>)
     logger.warning(<span class="str">"    isOrderTaken = "</span>+str(isOrderTaken))
     <span class="kw">if</span> isOrderTaken:
         auto[<span class="str">"timeStart"</span>] = time.time()
