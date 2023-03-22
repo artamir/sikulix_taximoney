@@ -1,0 +1,343 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>Sikulix_TaxiMoneyV2.sikuli</h2> <a href="Sikulix_TaxiMoneyV2.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">import</span> logging
+<span class="kw">import</span> datetime
+
+urlGarage = <span class="str">"https://www.taxi-money.net/garage/"</span>
+auto = {}
+dictTaxi = {<span class="str">"264417"</span>:
+                {<span class="str">"pic"</span>:<img src="264417.png" />},
+            <span class="str">"319558"</span>:
+                {<span class="str">"pic"</span>:<img src="319558.png" />}}
+
+firefox = App(<span class="str">"c:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"</span>)
+firefox.open()
+
+fault_capcha_counter = <span class="dig">0</span>
+
+FORMAT=<span class="str">'%(asctime)-15s %(message)s'</span>
+logging.basicConfig(
+        filename=<span class="str">'log-taxi.log'</span>,<span class="cmt">#logname,</span>
+        format=FORMAT)
+logger=logging.getLogger(<span class="str">''</span>)
+
+
+region = Region(<span class="dig">450</span>,<span class="dig">113</span>,<span class="dig">691</span>,<span class="dig">547</span>)
+regionMargin = Region(<span class="dig">1106</span>,<span class="dig">270</span>,<span class="dig">237</span>,<span class="dig">311</span>)
+regionSideMenu = Region(<span class="dig">243</span>,<span class="dig">113</span>,<span class="dig">236</span>,<span class="dig">517</span>)
+
+<span class="kw">def</span> highlightPicture(pPicture):
+    m = <span class="skw">find</span>(pPicture)
+    <span class="cmt"># the red frame will grow 5 times</span>
+    <span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">2</span>):
+        m.highlight(<span class="dig">1</span>)
+        m = m.nearby(<span class="dig">5</span>)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> goToURL(url):
+    logger.warning(<span class="str">"goToURL"</span>)
+    <span class="skw">type</span>(<span class="str">u"l"</span>,KeyModifier.CTRL)
+    paste(url)
+    <span class="skw">type</span>(Key.ENTER)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> waitPageLoad():
+    logger.warning(<span class="str">"waitPageLoad"</span>)
+    _region = Region(<span class="dig">5</span>,<span class="dig">0</span>,<span class="dig">1318</span>,<span class="dig">53</span>)
+    _region.<span class="skw">wait</span>(<img src="1678363257952.png" />,<span class="dig">60</span>)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> scrollToPicture(pPicture, pRegion, pStopPicture, pKey):
+    logger.warning(<span class="str">"scrollToPicture"</span>)
+    <span class="kw">while</span> <span class="kw">not</span> exists(pStopPicture,<span class="dig">0</span>):
+        <span class="kw">if</span> <span class="kw">not</span> pRegion.exists(pPicture,<span class="dig">0</span>):
+            <span class="cmt">#at = Mouse.at()</span>
+            ifExistsClick(<img src="1668111730485-2.png" />,regionMargin)
+            firefox.focus()
+            <span class="cmt">#Mouse.move(at) </span>
+            <span class="skw">type</span>(pKey)
+            <span class="skw">type</span>(pKey)
+            <span class="skw">type</span>(pKey)
+        <span class="kw">else</span>:
+            highlightPicture(pPicture)
+            <span class="kw">return</span> True
+
+    highlightPicture(pStopPicture)
+    <span class="kw">return</span> False
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> scrollToPictureUp(pPicture, pRegion):
+    logger.warning(<span class="str">"scrollToPictureUp"</span>)
+    _stopPic = <img src="_UpPage.png" />
+    <span class="kw">return</span> scrollToPicture(pPicture, pRegion, _stopPic, Key.UP)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> scrollToPictureDown(pPicture, pRegion):
+    logger.warning(<span class="str">"scrollToPictureDown"</span>)
+    _stopPic = <img src="_DownPage.png" />
+    <span class="kw">return</span> scrollToPicture(pPicture, pRegion, _stopPic, Key.DOWN)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span>  scrollToOrderDown(pPicture, pRegion):
+    logger.warning(<span class="str">"scrollToOrderDown"</span>)
+    pStopPicture = <img src="_DownPage.png" />
+    <span class="kw">while</span> <span class="kw">not</span> exists(pStopPicture,<span class="dig">0</span>):
+        closeReclama()
+        <span class="kw">if</span> <span class="kw">not</span> pRegion.exists(pPicture,<span class="dig">0</span>):
+            <span class="kw">if</span> pRegion.exists(<img src="1678522428242.png" />,<span class="dig">0</span>):
+                reloadOrders()
+
+            <span class="skw">type</span>(Key.PAGE_DOWN)
+        <span class="kw">else</span>:
+            <span class="kw">return</span> True
+    <span class="cmt">#highlightPicture(pStopPicture) </span>
+    <span class="kw">return</span> False
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> goToPageEnd():
+    logger.warning(<span class="str">"goToPageEnd"</span>)
+    <span class="cmt">#at = Mouse.at()</span>
+    ifExistsClick(<img src="1668111730485.png" />,regionMargin)
+    <span class="cmt">#Mouse.move(at)</span>
+    <span class="skw">type</span>(Key.END, KeyModifier.CTRL)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> goToPageHome():
+    logger.warning(<span class="str">"goToPageHome"</span>)
+    <span class="cmt">#at = Mouse.at()</span>
+    ifExistsClick(<img src="1668111730485-1.png" />,regionMargin)
+    <span class="cmt">#Mouse.move(at)</span>
+    <span class="skw">type</span>(Key.HOME, KeyModifier.CTRL)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> goToPageUp():
+    goToPageHome()
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> goToPageDown():
+    goToPageEnd()
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> ifExistsClick(pPicture, pRegion=None):
+    logger.warning(<span class="str">"ifExistsClick"</span>)
+    <span class="cmt">#at = Mouse.at() </span>
+    closeReclama()
+    <span class="cmt">#Mouse.move(at)</span>
+
+    <span class="cmt">#at = Mouse.at()</span>
+    <span class="kw">if</span> regionMargin.exists(<img src="1668111730485.png" />,<span class="dig">0</span>):
+        <span class="kw">try</span>:
+            regionMargin.<span class="skw">click</span>(<img src="1668111730485.png" />)
+        <span class="kw">except</span>:
+           <span class="kw">print</span> <span class="str">'ifExistsClick: cant click on 1668111730485.png'</span>
+    <span class="cmt">#Mouse.move(at)</span>
+
+    <span class="cmt">#at = Mouse.at()   </span>
+    <span class="kw">try</span>:
+        <span class="kw">if</span> pRegion.exists(pPicture,<span class="dig">0</span>):
+            <span class="cmt">#pRegion.click(pPicture)</span>
+            pRegion.<span class="skw">click</span>()
+            <span class="cmt">#Mouse.move(at)</span>
+            <span class="kw">return</span> True
+    <span class="kw">except</span>:
+        <span class="kw">if</span> exists(pPicture,<span class="dig">0</span>):
+            <span class="cmt">#click(pPicture)</span>
+            <span class="skw">click</span>()
+            <span class="cmt">#Mouse.move(at)</span>
+            <span class="kw">return</span> True
+
+    <span class="kw">return</span> False
+
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> closeReclama():
+    logger.warning(<span class="str">"closeReclama"</span>)
+    <span class="kw">if</span> exists(<img src="1678405736924.png" />,<span class="dig">0</span>):
+        <span class="skw">click</span>()
+    <span class="kw">if</span> exists(<img src="1678405891197.png" />,<span class="dig">0</span>):
+        <span class="skw">click</span>()
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> isOrderAccepted():
+    logger.warning(<span class="str">"isOrderAccepted"</span>)
+
+    _pic = <img src="_ZacazPrineat.png" />
+    <span class="kw">if</span> scrollToOrderDown(_pic, region):
+        <span class="kw">return</span> True
+
+    <span class="kw">return</span> False
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> reloadOrders():
+    logger.warning(<span class="str">"reloadOrders"</span>)
+    goToPageDown()
+    <span class="kw">if</span> <span class="kw">not</span> ifExistsClick(<img src="1678407318241.png" />):
+        ifExistsClick(<img src="1678407376767.png" />)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> clickOnCaptcha():
+    logger.warning(<span class="str">"clickOnCaptcha"</span>)
+    isCaptchaFound = False
+    _captcha2 = Pattern(<img src="_captcha21.png" />).targetOffset(<span class="dig">1</span>,-<span class="dig">62</span>)
+    <span class="kw">if</span> <span class="kw">not</span> exists(_captcha2,<span class="dig">0</span>):
+        _captcha2 = Pattern(<img src="_captcha22.png" />).targetOffset(-<span class="dig">2</span>,-<span class="dig">51</span>)
+
+    <span class="kw">if</span> exists(_captcha2,<span class="dig">0</span>):
+        isCaptchaFound = True
+        <span class="kw">try</span>:
+            <span class="skw">click</span>(_captcha2)
+            <span class="kw">return</span> isOrderAccepted()
+        <span class="kw">except</span>:
+            clickOtmena()
+        fault_capcha_counter =+ <span class="dig">1</span>
+    <span class="kw">return</span> False
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> getOrder():
+    logger.warning(<span class="str">"getOrder"</span>)
+    isOrderTaken = False
+    _pic = Pattern(<img src="OrderDiamonds.png" />).similar(<span class="dig">0.95</span>).targetOffset(-<span class="dig">67</span>,<span class="dig">39</span>)
+    <span class="kw">while</span> <span class="kw">not</span> isOrderTaken:
+        <span class="kw">if</span> scrollToOrderDown(_pic, region):
+            highlightPicture(_pic)
+            <span class="kw">if</span> ifExistsClick(_pic, region):
+                isOrderTaken = clickOnCaptcha()
+
+        logger.warning(<span class="str">"    isOrderTaken = "</span>+str(isOrderTaken))
+        <span class="kw">if</span> isOrderTaken:
+            <span class="kw">return</span> True
+        <span class="kw">else</span>:
+            reloadOrders()
+            <span class="skw">wait</span>(<span class="dig">3</span>)
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> getAutoStatus():
+    logger.warning(<span class="str">"getAutoStatus"</span>)
+    pStopPicture = <img src="_DownPage.png" />
+
+    <span class="kw">while</span> <span class="kw">not</span> exists(pStopPicture,<span class="dig">0</span>):
+        closeReclama()
+        <span class="kw">if</span> exists(<img src="_ZacazPrineat.png" />,<span class="dig">0</span>):
+            auto[<span class="str">"status"</span>] = <span class="str">"order accepted"</span>
+            <span class="kw">return</span> <span class="str">"order accepted"</span>
+        <span class="kw">if</span> exists(<img src="submit order.png" />,<span class="dig">0</span>):
+            auto[<span class="str">"status"</span>] = <span class="str">"submit order"</span>
+            <span class="kw">return</span> <span class="str">"submit order"</span>
+        <span class="kw">if</span> exists(<img src="1678655733157.png" />,<span class="dig">0</span>):
+            auto[<span class="str">"status"</span>] = <span class="str">"close"</span>
+            <span class="kw">return</span> <span class="str">"close"</span>
+
+        <span class="kw">if</span> exists(<img src="otdykhayet.png" />,<span class="dig">0</span>):
+            auto[<span class="str">"status"</span>] = <span class="str">"resting"</span>
+            <span class="kw">return</span> <span class="str">"resting"</span>
+
+        <span class="kw">if</span> exists(<img src="vzyati zakaz blue.png" />,<span class="dig">0</span>):
+            auto[<span class="str">"status"</span>] = <span class="str">"empty"</span>
+            <span class="kw">return</span> <span class="str">"empty"</span>
+
+        <span class="kw">if</span> exists(<img src="vzyati zakaz gray.png" />,<span class="dig">0</span>):
+            auto[<span class="str">"status"</span>] = <span class="str">"empty"</span>
+            <span class="kw">return</span> <span class="str">"empty"</span>
+
+        <span class="skw">type</span>(Key.PAGE_DOWN)
+
+    auto[<span class="str">"status"</span>] = <span class="str">"unknown"</span>
+    <span class="kw">return</span> <span class="str">"unknown"</span>
+
+<span class="cmt">#=======================================================================================</span>
+<span class="kw">def</span> main():
+    logger.warning(<span class="str">"main"</span>)
+    <span class="kw">for</span> key, auto <span class="kw">in</span> dictTaxi.items():
+        _pic = auto.get(<span class="str">"pic"</span>)
+        <span class="kw">while</span> <span class="kw">not</span> exists(_pic,<span class="dig">0</span>):
+            goToURL(urlGarage+key)
+            waitPageLoad()
+            closeReclama()
+
+        highlightPicture(_pic)
+        status = getAutoStatus()
+        <span class="kw">if</span> status == <span class="str">"empty"</span>:
+            getOrder()
+
+        <span class="kw">if</span> status == <span class="str">"submit order"</span>:
+            <span class="skw">click</span>(<img src="submit order.png" />)
+
+        <span class="kw">if</span> status == <span class="str">"close"</span>:
+            <span class="skw">click</span>(<img src="1678655733157.png" />)
+
+logger.warning(<span class="str">"========================================================="</span>)
+<span class="kw">while</span> True:
+    main()
+</pre>
+</body>
+</html>
