@@ -7,12 +7,14 @@ auto = {}
 dictTaxi = {"319558":
                 {"id":"319558",
                 "pic":"319558.png",
-                "orderPic":"rabota", 
+                "orderPic":"rabota",
+                "findWords":"работа",
                 "use diamonds reload": True},
             "264417":
                 {"id":"264417",
                 "pic":"264417.png",
                 "orderPic":"diamonds",
+                "findWords":"бонус",
                 "use diamonds reload": True}}
 
 firefox = App("c:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe")
@@ -352,11 +354,25 @@ def getOrderPic():
 
 
 #=======================================================================================
+def getOrderFindWordsPic():
+    fn = "getOrderFindWordPic"
+    o(fn)
+    if auto["findWords"] == "работа":
+        c(fn)
+        return Pattern("find_word_rabota.png").similar(0.93).targetOffset(-2,1)
+    if auto["findWords"] == "бонус":
+        c(fn)
+        return Pattern("1679495102267.png").similar(0.92)
+
+    if auto["findWords"] == "халтура":
+        c(fn)
+        return Pattern("1679495289633.png").similar(0.93)
+    c(fn)
+
+#=======================================================================================
 def getOrderCheckPic():
     fn = "getOrderCheckPic"
     o(fn)
-    print "auto : "
-    print auto
     if auto["orderPic"] == "diamonds":
         c(fn)
         return "1679146889005.png"
@@ -368,7 +384,22 @@ def getOrderCheckPic():
         return "1679146710257.png"
     c(fn)
 
-
+#=======================================================================================
+def findWords():
+    fn = "findWords"
+    o(fn)
+    _picFindWords = getOrderFindWordsPic()
+    _findWords = auto["findWords"]
+    type(r"f",KeyModifier.CTRL)
+    paste(unicd(_findWords))
+    type(Key.ENTER)
+    if exists(_picFindWords,0):
+        click()
+        c(fn)
+        return True
+    c(fn) 
+    return False
+    
 #=======================================================================================
 def getOrder():
     fn = "getOrder"
@@ -376,7 +407,8 @@ def getOrder():
     isOrderTaken = False 
     _pic = getOrderPic()
     while not isOrderTaken:
-        scrollToOrder = scrollToOrderDown(_pic, region)
+        #scrollToOrder = scrollToOrderDown(_pic, region)
+        scrollToOrder = findWords()
         
         if scrollToOrder:
             highlightPicture(_pic)
