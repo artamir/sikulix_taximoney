@@ -308,6 +308,21 @@ def isPageBusy():
     c(fn)
     return False
 
+#=======================================================================================
+def checkCaptchaOrder():
+    fn = "checkCaptchaOrder"
+    o(fn)
+    _pic = getOrderCheckPic(1)
+    if exists(_pic,0):
+        c(fn)
+        return True
+
+    _pic = getOrderCheckPic(2)
+    if exists(_pic,0):
+        c(fn)
+        return True
+    c(fn)
+    return False
 
 #=======================================================================================
 def clickOnCaptcha():
@@ -316,14 +331,18 @@ def clickOnCaptcha():
     isCaptchaFound = False
     _captcha2 = Pattern("_captcha21.png").targetOffset(1,-52)
     if exists(_captcha2):
-        click()
+        if not checkCaptchaOrder():
+            return False
+        click(_captcha2)
         isCaptchaFound = True
         c(fn)
         return isOrderAccepted()
         
     _captcha2 = Pattern("_captcha22.png").targetOffset(7,-52) 
     if exists(_captcha2):
-        click()
+        if not checkCaptchaOrder():
+            return False
+        click(_captcha2)
         isCaptchaFound = True
         c(fn)
         return isOrderAccepted()
@@ -366,18 +385,25 @@ def getOrderFindWordsPic():
     c(fn)
 
 #=======================================================================================
-def getOrderCheckPic():
+def getOrderCheckPic(i=1):
     fn = "getOrderCheckPic"
     o(fn)
     if auto["orderPic"] == "diamonds":
         c(fn)
-        return "1679146889005.png"
+        if i==1:
+            return "1679146889005.png"
+        if i==2:
+            return "bonus blue.png"
     if auto["orderPic"] == "haltura":
         c(fn)
-        return "1679146785443.png"
+        if i==1:
+            return "1679146785443.png"
     if auto["orderPic"] == "rabota":
         c(fn)
-        return "1679146710257.png"
+        if i==1:
+            return "1679146710257.png"
+        if i==2:
+            return "rabota blue.png"
     c(fn)
 
 #=======================================================================================
