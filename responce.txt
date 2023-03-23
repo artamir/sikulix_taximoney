@@ -1,0 +1,2142 @@
++++ running this Java
++++ trying to run SikuliX
++++ using: -Xms64M -Xmx512M -Dfile.encoding=UTF-8 -Dsikuli.FromCommandLine -jar c:\Sikulix\sikulix.jar -r "c:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\Sikulix_TaxiMoneyV2.sikuli" --args -sd 2022-11-20 -ed 2022-11-30
+[log] App.open [12472:firefox.exe]
+{'lastEnterTime': 1679553446.82, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1101,222)@S(0)[0,0 1364x697] (890 msec)
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679553486.119, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1105,134)@S(0)[0,0 1364x697] (780 msec)
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679553538.91, 'lastEnterTime': 1679553486.119, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679554086.133, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679553486.119}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1103,214)@S(0)[0,0 1364x697] (703 msec)
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,308)@S(0)[0,0 1364x697] (593 msec)
+{'lastEnterTime': 1679554115.353, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554142.326, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554170.598, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679553552.092, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679553552.092}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679554198.51, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,354)@S(0)[0,0 1364x697] (546 msec)
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554224.916, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679553552.092, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679554261.402, 'lastEnterTime': 1679554224.916, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679553552.092, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,497)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,546)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,546)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (655 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,547)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,205)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679554405.078, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554435.095, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554465.509, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554490.55, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554518.118, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679554551.339, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679554582.037, 'lastEnterTime': 1679554551.339, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (639 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (889 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,551)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,551)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,551)@S(0)[0,0 1364x697] (639 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(937,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (609 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+{'lastEnterTime': 1679555250.936, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679554405.078, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679554405.078}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1103,214)@S(0)[0,0 1364x697] (614 msec)
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (562 msec)
+{'lastEnterTime': 1679555280.355, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679554405.078, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,354)@S(0)[0,0 1364x697] (577 msec)
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679555304.445, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679554405.078, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679555327.59, 'lastEnterTime': 1679555304.445, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679554405.078, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,497)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,205)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679555850.877, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679555250.936, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679555250.874}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679555951.395, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679555351.38, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679555351.38}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679555987.816, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679555351.38, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,354)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679556015.828, 'lastEnterTime': 1679555987.816, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679555351.38, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (640 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+{'lastEnterTime': 1679556450.879, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679555250.936, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679555250.874}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679556674.473, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556074.468, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679556074.468}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1103,214)@S(0)[0,0 1364x697] (639 msec)
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (577 msec)
+{'lastEnterTime': 1679556706.057, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556074.468, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,354)@S(0)[0,0 1364x697] (1076 msec)
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679556732.845, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556074.468, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679556757.332, 'lastEnterTime': 1679556732.845, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556074.468, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,547)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679557050.89, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679555250.936, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679555250.874}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679557078.521, 'lastEnterTime': 1679557050.89, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679555250.936, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,583)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+{'lastEnterTime': 1679557385.941, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556785.927, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679556785.927}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (577 msec)
+{'lastEnterTime': 1679557408.934, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556785.927, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679557437.462, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556785.927, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'lastEnterTime': 1679557437.462, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679556785.927, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty reload'}
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (609 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,546)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,519)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,205)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,357)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (687 msec)
+{'lastEnterTime': 1679557744.84, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679557144.837}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558201.483, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679557601.475, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679557601.475}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'lastEnterTime': 1679558201.483, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679557601.475, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty reload'}
+[log] CLICK on L(1170,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1170,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1062,485)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,429)@S(0)[0,0 1364x697] (592 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,215)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,570)@S(0)[0,0 1364x697] (967 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (609 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,510)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,510)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,205)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+{'lastEnterTime': 1679558409.35, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679557144.837}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,308)@S(0)[0,0 1364x697] (561 msec)
+{'lastEnterTime': 1679558437.644, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558467.353, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558500.025, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558527.792, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558556.958, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558583.988, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558612.03, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679558635.356, 'lastEnterTime': 1679558612.03, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'empty'}
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (640 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,433)@S(0)[0,0 1364x697] (671 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,433)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,550)@S(0)[0,0 1364x697] (686 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (562 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679558612.03, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679557144.837, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1181,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1181,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,551)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (639 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (609 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(946,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (686 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[error] RobotDesktop: checkMousePosition: should be L(564,362)@S(0)[0,0 1364x697]
+but after move is L(564,361)@S(0)[0,0 1364x697]
+Possible cause in case you did not touch the mouse while script was running:
+ Mouse actions are blocked generally or by the frontmost application.
+You might try to run the SikuliX stuff as admin.
+[log] CLICK on L(564,362)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,514)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,551)@S(0)[0,0 1364x697] (640 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,551)@S(0)[0,0 1364x697] (655 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (639 msec)
+{'lastEnterTime': 1679559187.481, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679558409.335, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679558409.335}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (562 msec)
+{'lastEnterTime': 1679559215.956, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679558409.335, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679559255.374, 'lastEnterTime': 1679559215.956, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679558409.335, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,613)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,613)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (656 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (702 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,367)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,358)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,547)@S(0)[0,0 1364x697] (874 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,358)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,206)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(947,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,205)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (655 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,547)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+{'lastEnterTime': 1679559787.491, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679559187.481}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679560378.958, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679559778.958, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679559778.958}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (531 msec)
+{'lastEnterTime': 1679560405.2, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679559187.481}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679560426.359, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679559778.958, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'lastEnterTime': 1679560426.359, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679559778.958, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty reload'}
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,277)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (624 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,510)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,510)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (562 msec)
+{'lastEnterTime': 1679561005.203, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679559187.481}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561111.719, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679560511.731, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679560511.715}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679561136.422, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679560511.731, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561165.779, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679560511.731, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679561194.992, 'lastEnterTime': 1679561165.779, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679560511.731, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (609 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,395)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(942,233)@S(0)[0,0 1364x697] (562 msec)
+{'lastEnterTime': 1679561605.208, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679559187.481}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,308)@S(0)[0,0 1364x697] (593 msec)
+{'lastEnterTime': 1679561637.895, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,284)@S(0)[0,0 1364x697] (780 msec)
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561676.747, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561714.177, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561748.748, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561780.788, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561807.217, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561835.257, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679561231.964, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679561231.964}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (561 msec)
+{'lastEnterTime': 1679561862.529, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,354)@S(0)[0,0 1364x697] (655 msec)
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679561884.638, 'lastEnterTime': 1679561862.529, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'empty'}
+[log] CLICK on L(1181,292)@S(0)[0,0 1364x697] (952 msec)
+[log] CLICK on L(1181,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (686 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (592 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,371)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,523)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1105,134)@S(0)[0,0 1364x697] (687 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561862.529, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (640 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (546 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561862.529, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (577 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679561862.529, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679559187.481, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (718 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (734 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (593 msec)
+{'lastEnterTime': 1679562575.655, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679561231.964, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679562598.987, 'lastEnterTime': 1679562575.655, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679561231.964, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,394)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679562610.453, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679562575.655, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,308)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679562640.983, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679562575.655, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'lastEnterTime': 1679562640.983, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679562575.655, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'empty reload'}
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,585)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (592 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,362)@S(0)[0,0 1364x697] (592 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679562640.983, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679562575.655, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1169,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1169,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (609 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (639 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (655 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,523)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,574)@S(0)[0,0 1364x697] (624 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679562640.983, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679562575.655, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1181,292)@S(0)[0,0 1364x697] (578 msec)
+[log] CLICK on L(1181,292)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,550)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (655 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,551)@S(0)[0,0 1364x697] (592 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,514)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,550)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(906,398)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,550)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,514)@S(0)[0,0 1364x697] (608 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (578 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1171,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (531 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,371)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (608 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log]  TYPE "#F3."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1060,443)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (593 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (577 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,423)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (531 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,398)@S(0)[0,0 1364x697] (577 msec)
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679562640.983, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679562575.655, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'unknown'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,399)@S(0)[0,0 1364x697] (671 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,399)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679563877.11, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679562610.453, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679562610.438}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,378)@S(0)[0,0 1364x697] (609 msec)
+{'lastEnterTime': 1679563901.507, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679562610.453, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679563927.522, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679562610.453, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679563954.652, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679562610.453, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679563981.792, 'lastEnterTime': 1679563954.652, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679562610.453, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (593 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,581)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (671 msec)
+{'lastEnterTime': 1679564477.124, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679563877.11, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679563877.11}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679564625.832, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564025.831, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679564025.831}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,448)@S(0)[0,0 1364x697] (562 msec)
+{'lastEnterTime': 1679564655.933, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564025.831, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679564684.737, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564025.831, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+auto : 
+{'lastEnterTime': 1679564684.737, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564025.831, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty reload'}
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(1167,292)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (655 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (624 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+{'lastEnterTime': 1679565077.131, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679563877.11, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679563877.11}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679565347.032, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564747.019, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679564747.019}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,519)@S(0)[0,0 1364x697] (592 msec)
+{'lastEnterTime': 1679565372.962, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564747.019, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(1125,494)@S(0)[0,0 1364x697] (827 msec)
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679565398.868, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564747.019, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'resting'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+auto : 
+{'lastEnterTime': 1679565398.868, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679564747.019, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty reload'}
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (562 msec)
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "#END."
+[log] CLICK on L(1178,292)@S(0)[0,0 1364x697] (842 msec)
+[log] CLICK on L(1062,444)@S(0)[0,0 1364x697] (562 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(906,394)@S(0)[0,0 1364x697] (561 msec)
+[log] CLICK on L(939,234)@S(0)[0,0 1364x697] (561 msec)
+{'lastEnterTime': 1679565677.139, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'timeStart': 1679563877.11, 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0', 'status': 'order accepted', 'orderAcceptedStart': 1679563877.11}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,185 74x30]@S(0) for 1.0 secs
+[log] highlight R[563,180 84x40]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+{'lastEnterTime': 1679566070.935, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679565470.922, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'order accepted', 'orderAcceptedStart': 1679565470.922}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log] CLICK on L(997,519)@S(0)[0,0 1364x697] (562 msec)
+{'lastEnterTime': 1679566095.922, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679565470.922, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'submit order'}
+[log] ( Ctrl )  TYPE "l"
+[log] ( Ctrl )  TYPE "a"
+[log]  TYPE "#ENTER."
+[log] highlight M[568,190 72x23]@S(0) for 1.0 secs
+[log] highlight R[563,185 82x33]@S(0) for 1.0 secs
+[log]  TYPE "#PDOWN."
+[log]  TYPE "#PDOWN."
+auto : 
+{'emptyStart': 1679566125.796, 'lastEnterTime': 1679566095.922, 'pic': '264417.png', 'use diamonds reload': True, 'orderPic': 'diamonds', 'timeStart': 1679565470.922, 'id': '264417', 'findWords': '\xd0\xb1\xd0\xbe\xd0\xbd\xd1\x83\xd1\x81', 'status': 'empty'}
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[error] RobotDesktop: checkMousePosition: should be L(906,601)@S(0)[0,0 1364x697]
+but after move is L(906,600)@S(0)[0,0 1364x697]
+Possible cause in case you did not touch the mouse while script was running:
+ Mouse actions are blocked generally or by the frontmost application.
+You might try to run the SikuliX stuff as admin.
+[log] CLICK on L(906,601)@S(0)[0,0 1364x697] (733 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (640 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (655 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (639 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,357)@S(0)[0,0 1364x697] (671 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (546 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log]  TYPE "#F3."
+[log] CLICK on L(564,395)@S(0)[0,0 1364x697] (609 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (561 msec)
+[log] ( Ctrl )  TYPE "f"
+[log]  TYPE "#ENTER."
+[log] CLICK on L(564,357)@S(0)[0,0 1364x697] (577 msec)
+[log] CLICK on L(939,233)@S(0)[0,0 1364x697] (624 msec)
