@@ -17,3 +17,4 @@ Pattern("1679491809501.png").targetOffset(-177,57)
 Pattern("1679511014150.png").similar(0.64)
 
 
+Pattern("1679702197951.png").similar(0.63)
