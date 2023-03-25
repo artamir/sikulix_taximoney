@@ -3,6 +3,8 @@ import datetime
 import time
 
 urlGarage = "https://www.taxi-money.net/garage/"
+captchaPath = ""
+
 auto = {}
 dictTaxi = {"319558":
                 {"id":"319558",
@@ -69,6 +71,25 @@ def highlightPicture(pPicture):
         return True    
     except:
         return False
+
+#=======================================================================================
+def saveCaptcha():
+    fn = "saveCaptcha"
+    o(fn)    
+    #return 
+    rightClick(Pattern("1679759379856.png").targetOffset(-4,-111))
+    click("1679759439561.png")    
+
+    wait(Pattern("captchaFileName.png").targetOffset(40,-11))
+    click()
+    type(r"a",KeyModifier.CTRL)
+    today = datetime.datetime.today()
+    t = today.strftime("%Y-%m-%d-%H-%M-%S")    
+    fileName = captchaPath+t+".jpg"
+    paste(fileName)
+    type(Key.ENTER)
+    c(fn) 
+    return(fileName)    
 
 #=======================================================================================
 def goToURL(url):
@@ -333,7 +354,12 @@ def clickOnCaptcha():
     if exists(_captcha2):
         if not checkCaptchaOrder():
             return False
-        click(_captcha2)
+        saveCaptcha()
+        try:
+            click(_captcha2)
+        except:
+            c(fn) 
+            return False
         isCaptchaFound = True
         c(fn)
         return isOrderAccepted()
@@ -342,7 +368,12 @@ def clickOnCaptcha():
     if exists(_captcha2):
         if not checkCaptchaOrder():
             return False
-        click(_captcha2)
+        saveCaptcha()
+        try:
+            click(_captcha2)
+        except:
+            c(fn)
+            return False
         isCaptchaFound = True
         c(fn)
         return isOrderAccepted()
@@ -582,7 +613,9 @@ def main():
             click("1678655733157.png")
 
     #c(fn)
-    
+
+captchaPath = "c:\\Sikulix_scripts\\git_sikulix_taximoney\\sikulix_taximoney\\captcha\\"
+print captchaPath
 while True:
     #logger.warning("=========================================================")
     main()    
