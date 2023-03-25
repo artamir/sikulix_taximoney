@@ -3,6 +3,7 @@ import datetime
 import time
 
 urlGarage = "https://www.taxi-money.net/garage/"
+capchaSave = r"c:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\captcha\"
 auto = {}
 dictTaxi = {"319558":
                 {"id":"319558",
@@ -69,6 +70,19 @@ def highlightPicture(pPicture):
         return True    
     except:
         return False
+
+#=======================================================================================
+def saveCaptcha():
+    fn = "saveCaptcha"
+    o(fn)    
+    #return 
+    rightClick(Pattern("1679755500388.png").targetOffset(-4,-105))
+    click("1679755467503.png")
+    fileName = captchaSave+str(time.time())+".jpg"
+    paste(fileName)
+    type(Key.ENTER)
+    c(fn) 
+    return(filename)    
 
 #=======================================================================================
 def goToURL(url):
