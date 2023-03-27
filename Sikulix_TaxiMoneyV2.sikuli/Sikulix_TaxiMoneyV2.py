@@ -3,7 +3,8 @@ import datetime
 import time
 
 urlGarage = "https://www.taxi-money.net/garage/"
-captchaPath = ""
+captchaPath = "c:\\Sikulix_scripts\\git_sikulix_taximoney\\sikulix_taximoney\\captcha\\"
+urlYaPictureSearch = r'https://yandex.ru/images/search?rpt=imageview'
 
 auto = {}
 dictTaxi = {"319558":
@@ -88,6 +89,8 @@ def saveCaptcha():
     fileName = captchaPath+t+".jpg"
     paste(fileName)
     type(Key.ENTER)
+    waitVanish("1679905123827.png",60)
+    
     c(fn) 
     return(fileName)    
 
@@ -100,6 +103,18 @@ def goToURL(url):
     paste(url)
     type(Key.ENTER)
     c(fn)
+
+#=======================================================================================
+def openOCRTab():
+    fn = "openOCRTab"
+    o(fn)
+    if exists("1679776061740.png"):
+        type(r't',KeyModifier.CTRL)
+        goToURL(urlYaPictureSearch)
+        wait("1679904976092.png",60)
+        
+    c(fn)
+
 
 #=======================================================================================
 def waitPageLoad():
@@ -351,10 +366,11 @@ def clickOnCaptcha():
     o(fn)
     isCaptchaFound = False
     _captcha2 = Pattern("_captcha21.png").targetOffset(1,-52)
+    captchaFileName = "" 
     if exists(_captcha2):
         if not checkCaptchaOrder():
             return False
-        saveCaptcha()
+        captchaFileName = saveCaptcha()
         try:
             click(_captcha2)
         except:
@@ -368,7 +384,7 @@ def clickOnCaptcha():
     if exists(_captcha2):
         if not checkCaptchaOrder():
             return False
-        saveCaptcha()
+        captchaFileName = saveCaptcha()
         try:
             click(_captcha2)
         except:
@@ -571,9 +587,10 @@ def getAutoStatus():
 def loadAutoPage():
     fn = "loadAutoPage"
     o(fn)
+    type("1",KeyModifier.CTRL)
     _pic = auto["pic"]
     key = auto["id"]
-    print auto
+    print auto 
     while not exists(_pic,0): 
         goToURL(urlGarage+key)
         waitPageLoad()
@@ -614,8 +631,9 @@ def main():
 
     #c(fn)
 
-captchaPath = "c:\\Sikulix_scripts\\git_sikulix_taximoney\\sikulix_taximoney\\captcha\\"
+
 print captchaPath
+openOCRTab()
 while True:
     #logger.warning("=========================================================")
     main()    
