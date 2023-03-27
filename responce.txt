@@ -1,0 +1,24 @@
++++ running this Java
++++ trying to run SikuliX
++++ using: -Xms64M -Xmx512M -Dfile.encoding=UTF-8 -Dsikuli.FromCommandLine -jar c:\Sikulix\sikulix.jar -r "c:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\Sikulix_TaxiMoneyV2.sikuli" --args -sd 2022-11-20 -ed 2022-11-30
+[log] App.open [14012:firefox.exe]
+{'lastEnterTime': 1679755975.815, 'pic': '319558.png', 'use diamonds reload': True, 'orderPic': 'rabota', 'id': '319558', 'findWords': '\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0'}
+[error] RunTimeIDE: ImageMissing: 319558.png
+[error] RunTimeIDE: Exists: Abort: Jython traceback - current first:
+Sikulix_TaxiMoneyV2 (560)
+Sikulix_TaxiMoneyV2 (585)
+Sikulix_TaxiMoneyV2 (602)
+[error] script [ C:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\Sikulix_TaxiMoneyV2.sikuli ] stopped with error at line --unknown--
+[error] Error caused by: Traceback (most recent call last):
+  File "C:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\Sikulix_TaxiMoneyV2.sikuli\Sikulix_TaxiMoneyV2.py", line 602, in <module>
+  File "C:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\Sikulix_TaxiMoneyV2.sikuli\Sikulix_TaxiMoneyV2.py", line 585, in main
+  File "C:\Sikulix_scripts\git_sikulix_taximoney\sikulix_taximoney\Sikulix_TaxiMoneyV2.sikuli\Sikulix_TaxiMoneyV2.py", line 560, in loadAutoPage
+	at java.lang.Thread.stop(Thread.java:850)
+	at org.sikuli.script.RunTime.abortScripting(RunTime.java:74)
+	at org.sikuli.script.Region.exists(Region.java:2390)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+java.lang.ThreadDeath: java.lang.ThreadDeath
+
